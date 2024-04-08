@@ -28,4 +28,4 @@
 ![Image](catDirectory.png)
 
 - For the third example, using the input `Hello.java`, the absolute path of the working directory is still `/workspaces/lecture1`. The given output of this code is provided in the photo. The reason for this output is because cat did its job, it printed the contents of the file `Hello.java`. No error message was produced as it did its job.
-![Image](catFile.jpg)
+![Image](catFile.png)
