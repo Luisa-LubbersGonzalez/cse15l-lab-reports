@@ -1,4 +1,4 @@
-# *Lab 1 Report*
+# *Lab Report #1*
 
 ## The `cd` Command
 - For the first example, giving no arguments, the absolute path to the working directory right before the command was run was `/workspaces/lecture1`. There is no output because we didn't change to a different or new directory. It isn't an error because the command did what it should have. I didn't give it a new directory to change into, so it stayed in the same one.
