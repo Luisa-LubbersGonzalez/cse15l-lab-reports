@@ -1,5 +1,5 @@
 # The `cd` Command
-- For the first example, the absolute path to the working directory right before the command was run was `/workspaces/lecture1`. There is no output because we didn't change to a different or new directory. It isn't an error because the command did what it should have. I didn't give it a new directory to change into, so it stayed in the same one.
+- For the first example, giving no arguments, the absolute path to the working directory right before the command was run was `/workspaces/lecture1`. There is no output because we didn't change to a different or new directory. It isn't an error because the command did what it should have. I didn't give it a new directory to change into, so it stayed in the same one.
 ![Image](cdNoInput.png)
 
 - For the second example, this time giving the command  ` cd /workspaces`, the absoute path of the directory was `/workspaces/lecture1`. The output I got was then `/workspaces $`, showing me that the command did its job. I asked it to take me to workspaces, and it did. This isn't an error because the command did as it should and we do have a directory named `workspaces`.
