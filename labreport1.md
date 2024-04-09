@@ -1,4 +1,6 @@
-# The `cd` Command
+# *Lab 1 Report*
+
+## The `cd` Command
 - For the first example, giving no arguments, the absolute path to the working directory right before the command was run was `/workspaces/lecture1`. There is no output because we didn't change to a different or new directory. It isn't an error because the command did what it should have. I didn't give it a new directory to change into, so it stayed in the same one.
 ![Image](cdNoInput.png)
 
@@ -9,7 +11,7 @@
 ![Image](cdFile.png)
 
 
-# The `ls` Command
+## The `ls` Command
 - For the first example, with no input, the absolute path of the working directory is `/workspaces/lecture1` before any execution. The output that I got was `Hello.java` `README` and `messages`. I got this because ls listed all the files and folders that are currently in the diresctory `lecture1`. This produced no error because there were contents to be listed in `lecture1`.
 ![Image](lsNoInput.png)
 
@@ -20,7 +22,7 @@
 ![Image](lsFile.png)
 
 
-# The `cat` Command
+## The `cat` Command
 - For the first example, using the command with no arguments, the absolute path of the working directory is `/workspaces/lecture1`. The output when using this command is nothing. It produced no error nor output. This is because cat is used to print the contents of the given file, and because I didn't give it any inputs, it didn't have to give an output.
 ![Image](catNoInput.png)
 
