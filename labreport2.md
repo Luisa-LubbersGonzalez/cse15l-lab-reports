@@ -3,7 +3,7 @@
 ## Part 1: `ChatServer`
 
 ## Part 2: Executing different commands
-- Here is a screenshot of my terminal on my computer, accessing `.ssh` and looking at my *private* key to connect into `ieng6`. ![Private](AbsPrivateKey.png)
+- Here is a screenshot of my terminal on my computer, accessing `.ssh` and looking at my *private* key to connect into `ieng6`. ![Private](PrivateKey.png)
 
 - Here is my accessing the *public* key that is stored in the `ieng6` machine with an absolute path. ![Public](something.png)
 
