@@ -5,7 +5,7 @@
 ## Part 2: Executing different commands
 - Here is a screenshot of my terminal on my computer, accessing `.ssh` and looking at my *private* key to connect into `ieng6`. ![Private](PrivateKey.png)
 
-- Here is my accessing the *public* key that is stored in the `ieng6` machine with an absolute path. ![Public](something.png)
+- Here is my accessing the *public* key that is stored in the `ieng6` machine with an absolute path. ![Public](publicAbsPath.png)
 
 
 - Here, I logged into my `ieng6` account without having to input a password or give any additional information. This is because during lab 3, we created a key that memorizes us every time that we log into the server now ![Image](ieng6login.png).
