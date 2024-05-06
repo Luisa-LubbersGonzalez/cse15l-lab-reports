@@ -1,4 +1,4 @@
-# *Lab Report #23*
+# *Lab Report #3*
 
 ## Part 1: Bugs
 The bug I have chosen to explore from Week 4's lab is: 
