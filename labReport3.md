@@ -1,7 +1,32 @@
 # *Lab Report #3*
 
 ## Part 1: Bugs
-The bug I have chosen to explore from Week 4's lab is: 
+The bug I have chosen to explore from Week 4's lab is the bug in the LinkedListExample.java file, under `class LinkedList` pertaining to the `append` method.
+- A failure inducing input is as follows:
+```
+@Test
+public void testAppendBug() {
+  LinkedList list = new LinkedList();
+  list.append(1);
+  list.append(2);
+
+  assertEquals(1, list.length());
+}
+```
+- An input that doesn't produce an error is:
+```
+@Test
+public void testAppendBug2() {
+  LinkedList list = new LinkedList();
+  list.append(11);
+  list.append(22);
+  list.append(33);
+
+  assertEquals(3, list.length());
+}
+```
+- The symptom for this buggy code are the following: ![Image)(.png) ![Image(.png) After the code was fixed, one test passes and the other failed; before the fix one failed and the other took too long to run, hence the buggy code. 
+-  This fix addressed the issue becaue the `while` loop in the `append` method was iterating through the list while `n.next` was not null, but it continued to assign `next` to `n` and a new node with that value would be added to the list. So it kept iterating over `n` but never reached the end of that list because it kept pointing to `n` with no change.
 
 ## Part 2: Researching Commands
 The command that I want to explore is `grep`.
