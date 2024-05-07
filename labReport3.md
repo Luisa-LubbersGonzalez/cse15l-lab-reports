@@ -25,7 +25,7 @@ public void testAppendBug2() {
   assertEquals(3, list.length());
 }
 ```
-- The symptom for this buggy code are the following: ![Image)(slowTests.png) ![Image(passedTests.png) After the code was fixed, one test passes and the other failed; before the fix one failed and the other took too long to run, hence the buggy code.
+- The symptom for this buggy code are the following: ![Image](slowTests.png) ![Image](passedTests.png) After the code was fixed, one test passes and the other failed; before the fix one failed and the other took too long to run, hence the buggy code.
 - Bug before:
 ```
 public void append(int value) {
