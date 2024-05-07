@@ -32,8 +32,9 @@ public void append(int value) {
   ---PREVIOUS CODE---
   while(n.next != null) {
     n = n.next;
-  n.next = new Node(value, null);
+    n.next = new Node(value, null);
   }
+}
 ```
 - Bug after fix:
 ```
