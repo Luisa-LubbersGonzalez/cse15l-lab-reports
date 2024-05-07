@@ -76,7 +76,7 @@ luisa_lubbers@Luisas-Air media % grep -v "polics" *.txt
 5_Legal_group.txt: BY EDWARD MCDONOUGH
 ---SEVERAL OTHER LINES---
 ```
-![Image](-vExample2.png) For this example, my input was `grep -v "government" AP_LawSchoolDebts.txt` where it got rid of lines that didn't contain the word "government" in this given txt file. It could be useful to filter out different words or patterns that we don't want present in our files.
+![Image](vExample3.png) For this example, my input was `grep -v "government" AP_LawSchoolDebts.txt` where it got rid of lines that didn't contain the word "government" in this given txt file. It could be useful to filter out different words or patterns that we don't want present in our files.
 - Another example using `-v` is
 ```
 luisa_lubbs@Luisas-Air media % grep -v "school" AP_LawSchoolDebts.txt
@@ -87,7 +87,7 @@ November 18, 2002
 WASHINGTON (AP) - Most new lawyers...
 ---SEVERAL OTHER LINES---
 ```
-![Image](vExample3.png) Where the input for this command was `grep -v "school" AP_LawSchoolDebts.txt` and as you can see, words that matched my input, "school," were eliminated from this given txt file. Again, this could be useful when we want to sort out a word that we don't want in our search. 
+![Image](-vExample2.png) Where the input for this command was `grep -v "school" AP_LawSchoolDebts.txt` and as you can see, words that matched my input, "school," were eliminated from this given txt file. Again, this could be useful when we want to sort out a word that we don't want in our search. 
 
 The command `-E` is used to treat patterns as extended regular expressions. 
 - One example of this in use is
