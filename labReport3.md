@@ -70,24 +70,25 @@ In this example, my input was `grep -i "funny" *.txt" while still in the biomed 
 Another command used with `grep` is `-v` which prints out the lines that do not match the pattern we are searching for. 
 - One example of `-v` in use is
 ```
-luisa_lubbers@Luisas-Air media % grep -v "polics" *.txt
+luisa_lubbers@Luisas-Air media % grep -v "police" *.txt
 5_Legal_Group.txt:
 ...
 5_Legal_group.txt: BY EDWARD MCDONOUGH
 ---SEVERAL OTHER LINES---
 ```
-![Image](VExample3.png) For this example, my input was `grep -v "government" AP_LawSchoolDebts.txt` where it got rid of lines that didn't contain the word "government" in this given txt file. It could be useful to filter out different words or patterns that we don't want present in our files.
+![Image](-vExample1.png) For this example, my input was `grep -v "government" AP_LawSchoolDebts.txt` where it got rid of lines that didn't contain the word "government" in this given txt file. It could be useful to filter out different words or patterns that we don't want present in our files.
 - Another example using `-v` is
 ```
-luisa_lubbs@Luisas-Air media % grep -v "school" AP_LawSchoolDebts.txt
+luisa_lubbs@Luisas-Air media % grep -v "government" AP_LawSchoolDebts.txt
 
 The Associated Press
 
+Law school debts forcing recruits to private sector
 November 18, 2002
 WASHINGTON (AP) - Most new lawyers...
 ---SEVERAL OTHER LINES---
 ```
-![Image](-vExample2.png) Where the input for this command was `grep -v "school" AP_LawSchoolDebts.txt` and as you can see, words that matched my input, "school," were eliminated from this given txt file. Again, this could be useful when we want to sort out a word that we don't want in our search. 
+![Image](-vExample2.png) Where the input for this command was `grep -v "government" AP_LawSchoolDebts.txt` and as you can see, words that matched my input, "school," were eliminated from this given txt file. I ran another the command a third time, this time using "school" instead of "government" and obviously I was shown where the word "government" was in the txt file, and it had removed the word "school". Again, this could be useful when we want to sort out a word that we don't want in our search. 
 
 The command `-E` is used to treat patterns as extended regular expressions. 
 - One example of this in use is
