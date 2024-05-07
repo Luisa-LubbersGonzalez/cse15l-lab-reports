@@ -25,7 +25,8 @@ public void testAppendBug2() {
   assertEquals(3, list.length());
 }
 ```
-- The symptom for this buggy code are the following: ![Image](slowTests.png) ![Image](passedTests.png) After the code was fixed, one test passes and the other failed; before the fix one failed and the other took too long to run, hence the buggy code.
+- The symptom for this buggy code are the following: ![Image](slowTests.png) ![Image](passedTests.png)
+After the code was fixed, one test passes and the other failed; before the fix one failed and the other took too long to run, hence the buggy code.
 - Bug before:
 ```
 public void append(int value) {
@@ -59,13 +60,15 @@ luisa_lubbs@Luisas-Air biomed % grep -i "doctor" *.txt
 1471-230X-1-6.txt:      effects (Figure 1) is striking...
 ---SEVERAL OTHER LINES---
 ```
-![Image](-iExample1.png) Here, I input `grep -i "doctor" *.txt` to search through all the `txt` files in the biomed folder for the word "doctor," regardless of its case. It then returns all the files that contain the given word. This could be useful when you want to search for a certain word in files, but are unsure of its case sensitivity and its variations.
+![Image](-iExample1.png) 
+Here, I input `grep -i "doctor" *.txt` to search through all the `txt` files in the biomed folder for the word "doctor," regardless of its case. It then returns all the files that contain the given word. This could be useful when you want to search for a certain word in files, but are unsure of its case sensitivity and its variations.
 - Another example of the `-i` command is
 ```
 luisa_lubbs@Luisas-Air biomed % grep -i "funny" *.txt
 luisa_lubbs@Luisas-Air biomed %
 ```
 In this example, my input was `grep -i "funny" *.txt" while still in the biomed folder inside the ./technical directory. This example demonstrates how when a word isn't present in any of the files, nothing will be returned. This is helpful as it demonstrates that there are no occurances of a certain word or patters in the files that we are searching through. 
+
 
 Another command used with `grep` is `-v` which prints out the lines that do not match the pattern we are searching for. 
 - One example of `-v` in use is
@@ -76,7 +79,8 @@ luisa_lubbers@Luisas-Air media % grep -v "police" *.txt
 5_Legal_group.txt: BY EDWARD MCDONOUGH
 ---SEVERAL OTHER LINES---
 ```
-![Image](-vExample1.png) For this example, my input was `grep -v "government" AP_LawSchoolDebts.txt` where it got rid of lines that didn't contain the word "government" in this given txt file. It could be useful to filter out different words or patterns that we don't want present in our files.
+![Image](-vExample1.png) 
+For this example, my input was `grep -v "government" AP_LawSchoolDebts.txt` where it got rid of lines that didn't contain the word "government" in this given txt file. It could be useful to filter out different words or patterns that we don't want present in our files.
 - Another example using `-v` is
 ```
 luisa_lubbs@Luisas-Air media % grep -v "government" AP_LawSchoolDebts.txt
@@ -88,7 +92,9 @@ November 18, 2002
 WASHINGTON (AP) - Most new lawyers...
 ---SEVERAL OTHER LINES---
 ```
-![Image](-vExample2.png) Where the input for this command was `grep -v "government" AP_LawSchoolDebts.txt` and as you can see, words that matched my input, "school," were eliminated from this given txt file. I ran another the command a third time, this time using "school" instead of "government" and obviously I was shown where the word "government" was in the txt file, and it had removed the word "school". Again, this could be useful when we want to sort out a word that we don't want in our search. 
+![Image](-vExample2.png) 
+Where the input for this command was `grep -v "government" AP_LawSchoolDebts.txt` and as you can see, words that matched my input, "school," were eliminated from this given txt file. I ran another the command a third time, this time using "school" instead of "government" and obviously I was shown where the word "government" was in the txt file, and it had removed the word "school". Again, this could be useful when we want to sort out a word that we don't want in our search. 
+
 
 The command `-E` is used to treat patterns as extended regular expressions. 
 - One example of this in use is
