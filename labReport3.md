@@ -25,7 +25,26 @@ public void testAppendBug2() {
   assertEquals(3, list.length());
 }
 ```
-- The symptom for this buggy code are the following: ![Image)(.png) ![Image(.png) After the code was fixed, one test passes and the other failed; before the fix one failed and the other took too long to run, hence the buggy code. 
+- The symptom for this buggy code are the following: ![Image)(slowTests.png) ![Image(passedTests.png) After the code was fixed, one test passes and the other failed; before the fix one failed and the other took too long to run, hence the buggy code.
+- Bug before:
+```
+public void append(int value) {
+  ---PREVIOUS CODE---
+  while(n.next != null) {
+    n = n.next;
+  n.next = new Node(value, null);
+  }
+```
+- Bug after fix:
+```
+public void append(int value) {
+  ---PREVIOUS CODE---
+  while(n.next != null) {
+    n = n.next;
+  }
+  n.next = new Node(value, null);
+}
+```
 -  This fix addressed the issue becaue the `while` loop in the `append` method was iterating through the list while `n.next` was not null, but it continued to assign `next` to `n` and a new node with that value would be added to the list. So it kept iterating over `n` but never reached the end of that list because it kept pointing to `n` with no change.
 
 ## Part 2: Researching Commands
