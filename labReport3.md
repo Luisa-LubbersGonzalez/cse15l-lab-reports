@@ -84,9 +84,7 @@ For this example, my input was `grep -v "government" AP_LawSchoolDebts.txt` wher
 - Another example using `-v` is
 ```
 luisa_lubbs@Luisas-Air media % grep -v "government" AP_LawSchoolDebts.txt
-
 The Associated Press
-
 Law school debts forcing recruits to private sector
 November 18, 2002
 WASHINGTON (AP) - Most new lawyers...
