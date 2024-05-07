@@ -8,7 +8,7 @@ The bug I have chosen to explore from Week 4's lab is the bug in the LinkedListE
 public void testAppendBug() {
   LinkedList list = new LinkedList();
   list.append(1);
-  list.append(2);
+  list.append(null);
 
   assertEquals(1, list.length());
 }
