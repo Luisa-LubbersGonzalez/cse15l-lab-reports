@@ -47,7 +47,7 @@ public void append(int value) {
   n.next = new Node(value, null);
 }
 ```
--  This fix addressed the issue becaue the `while` loop in the `append` method was iterating through the list while `n.next` was not null, but it continued to assign `next` to `n` and a new node with that value would be added to the list. So it kept iterating over `n` but never reached the end of that list because it kept pointing to `n` with no change.
+-  This fix addressed the issue becaue the `while` loop in the `append` method was iterating through the list once becuase `n.next` was assigned to a `new Node` and the value was `null`. So the code ran again and it wouldn't reassign the `null` value because it wouldn't pass the condition set in the while loop. 
 
 ## Part 2: Researching Commands
 The command that I want to explore is `grep`.
