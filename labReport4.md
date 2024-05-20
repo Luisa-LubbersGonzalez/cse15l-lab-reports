@@ -12,7 +12,7 @@ For Step 5: the keys were: `git clone <CMD> V<ENTER>`, `rm -rf lab7<ENTER>`, `<u
 
 
 For Step 6, the keys used were: `cd lab7/<ENTER>`, `ls<ENTER>`, `cat tesh.sh<ENTER>`, `bash test.sh<ENTER>`
-- I `cd`d into the necessary directory, listed all the file present, `cat`ed test.sh to make sure that the tests look ok and had no bugs, and then ran the tests with `bash`
+- I `cd`d into the necessary directory, listed all the file present, `cat` test.sh to make sure that the `javac` commands looked correct, and then ran the tests with `bash`
 ![Image](Step6.png)
 
 
