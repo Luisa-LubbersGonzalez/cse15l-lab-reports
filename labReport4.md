@@ -1,7 +1,7 @@
 # *Lab Report #4*
 
 ## VIM Steps 4-9
-For Step 4, the keys pressed were: `ssh<space>llubbersgonzalez@ieng6.ucsd.edu<ENTER>`
+For Step 4, the keys pressed were: ```ssh<space>llubbersgonzalez@ieng6.ucsd.edu<ENTER>```
 This was just me logging onto ieng6 to be able to complete the rest of the lab/steps 
 ![Image](Step4.png)
 
